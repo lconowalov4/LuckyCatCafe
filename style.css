@@ -187,13 +187,14 @@ header {
 
 .history {
     margin-top: 166px;
+    padding-bottom: 200px;
 }
 
 .history-title {
     font-family: "Tinos", serif;
     font-size: 54px;
     font-weight: 400;
-    width: 444px;
+    width: 666px;
     text-align: center;
     margin-top: 21px;
 }
@@ -204,14 +205,15 @@ header {
 
 .history-desc {
     color: #656363;
-    font-size: 16px;
-    width: 444px;
+    font-size: 24px;
+    width: 666px;
     text-align: center;
+    margin-top: 21px;
 }
 
 .history-number {
     display: flex;
-    width: 444px;
+    width: 666px;
     justify-content: center;
     margin-top: 40px;
     margin-left: 30px;
@@ -220,7 +222,7 @@ header {
 .number-item {
     margin-right: 60px;
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
     color: #576F57;
 }
 
@@ -257,4 +259,79 @@ header {
     z-index: 999;
     top: 165px;
     left: -201px;
+}
+
+.banner {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/banner.jpg");
+    padding: 80px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-title {
+    color: #fff;
+    font-family: "Tinos", serif;
+    font-size: 52px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.left-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.right-btn {
+    background-color: #576F57;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color 0.2s linear;
+}
+
+.right-btn:hover {
+    background-color: #276432;
+}
+
+.banner-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-title {
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 132px;
+    margin-bottom: 139px;
+}
+
+.dishes-title span {
+    color: #576F57;
+}
+
+.sandwiches {
+    display: flex;
+    justify-content: center;
+}
+
+.sandwich-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.sandwiches-image {
+    margin-right: 20px;
+}
+
+.sandwich-price {
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    margin-left: 20px;
 }
