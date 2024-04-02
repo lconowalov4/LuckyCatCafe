@@ -394,22 +394,8 @@ header {
     margin-top: 20px;
 }
 
-.price-image {
-    position: absolute;
-    bottom: 0;
-    right: 110px;
-}
-
 .menu-image {
     position: relative;
-}
-
-.price {
-    position: absolute;
-    bottom: 32px;
-    right: 155px;
-    color: #fff;
-    font-size: 30px;
 }
 
 .menu-items {
@@ -506,4 +492,142 @@ footer {
     padding: 50px 0;
     color: #fff;
     text-align: center;
+}
+
+.burger-menu {
+    display: none;
+}
+
+@media (max-width: 1500px) {
+    .gallery-content {
+        display: block;
+    }
+
+    .gallery-img, .gallery-up, .gallery-down {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gallery-img{
+        margin-bottom: 20px;
+    }
+
+    .gallery-left {
+        margin-right: 0;
+    }
+
+    .images-1 {
+        top: 54px;
+        left: -385px;
+    }
+    
+    .images-2 {
+        top: -92px;
+        left: -215px;
+    }
+    
+    .images-3 {
+        top: 165px;
+        left: -100px;
+    }
+
+}
+
+@media (max-width: 1300px) {
+    .menu-items {
+        display: block;
+    }
+
+    .menu-item {
+        margin: 20px auto;
+        width: 600px;
+    }
+
+    .header-title {
+        position: static;
+    }
+
+    .header-subtitle-two:after, .header-subtitle-two:before {
+        content: none;
+    }
+
+    .employee-content {
+        display: block;
+    }
+
+    .employee-content img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .banner-holder {
+        display: block;
+    }
+
+    .left-title, .left-text, .right-button {
+        text-align: center;
+    }
+
+    .right-button {
+        margin-top: 30px;
+    }
+
+    .history-images {
+        display: none;
+    }
+
+    .history-title, .history-desc, .history-number {
+        width: auto;
+    }
+}
+
+@media (max-width: 1185px) {
+    .burger-menu {
+        display: block;
+    }
+
+    nav, .cart, .phone, .btn {
+        display: none;
+    }
+
+    .header-line {
+        justify-content: space-between;
+    }
+
+    .reuben {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card-holder{
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 780px) {
+    .history-holder {
+        display: block;
+    }
+
+    .menu-item {
+        width: auto;
+    }
+
+    .container {
+        margin: auto 40px;
+    }
+
+    .number-item {
+        font-size: 23px;
+    }
 }
